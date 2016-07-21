@@ -44,8 +44,8 @@ metadata {
 	// UI tile definitions
 	tiles {
 		standardTile("smoke", "device.smoke", width: 2, height: 2) {
-			state "detected", label: 'SMOKE', icon: "st.contact.contact.open", backgroundColor: "#ffa81e"
-			state "clear", label: 'NO SMOKE', icon: "st.contact.contact.closed", backgroundColor: "#79b821"
+			state "detected", label: 'SMOKE', icon: "st.alarm.smoke.smoke", backgroundColor: "#e86d13"
+			state "clear", label: 'NO SMOKE', icon: "st.alarm.smoke.clear", backgroundColor: "#79b821"
 		}
 		valueTile("battery", "device.battery", inactiveLabel: false, decoration: "flat") {
 			state "battery", label:'${currentValue}% battery', unit:""
